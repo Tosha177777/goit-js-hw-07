@@ -31,9 +31,11 @@ function modalSlider() {
     captions: true,
     captionPosition: "bottom",
     captionsData: "alt",
-    captionDelay: 250,
+    captionDelay: 500,
+    animationSpeed: 500,
+    fadeSpeed: 1000,
   });
-  return lightbox;
+  lightbox.open();
 }
 
 console.log(galleryItems);
